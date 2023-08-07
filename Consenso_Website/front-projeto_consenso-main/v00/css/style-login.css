@@ -1,0 +1,56 @@
+body{
+    font-family: 'Encode Sans', sans-serif !important;
+}
+
+/* NAVBAR */
+nav{
+    /*descobrir como alterar tamanho navbar*/
+    background-color: #0057DF;
+    color: #FFFFFF !important;
+}
+
+#titulo{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+/* UTILITARIOS */
+
+.login-cliente{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#cadastro-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#btnSubmit{
+    margin-top: 10px;
+}
+
+
+/*FOOTER*/
+footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #D9D9D9;
+    font-weight: bold;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+}
+
+#logo-consenso{
+    height: 80px;
+}
+
+#footer-texto{
+    margin-top: 20px;
+}   

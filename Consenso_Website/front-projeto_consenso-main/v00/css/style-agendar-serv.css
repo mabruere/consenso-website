@@ -1,0 +1,68 @@
+body{
+    font-family: 'Encode Sans', sans-serif !important;
+}
+
+/* NAVBAR */
+nav{
+    /*descobrir como alterar tamanho navbar*/
+    background-color: #0057DF;
+    color: #FFFFFF !important;
+}
+
+.nav-link{
+    color: #FFFFFF !important;
+    font-weight: 700;
+}
+
+
+.nav-link.active{
+    color: #FFB800 !important;
+    border-bottom: #FFB800 solid 4px;
+}
+
+#titulo{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+/* UTILITARIOS */
+.botao-agendamento{
+    margin-top: 50px;
+}
+
+.bloco-utilitarios{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    margin-top: 10%
+}
+
+#botao-agendamento{
+    margin-top: 40px;
+}
+
+#data-hora{
+    margin-top: 20px;
+}
+
+/*FOOTER*/
+footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #D9D9D9;
+    font-weight: bold;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+}
+
+#logo-consenso{
+    height: 80px;
+}
+
+#footer-texto{
+    margin-top: 20px;
+}   

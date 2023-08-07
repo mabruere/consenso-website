@@ -1,0 +1,78 @@
+body{
+    font-family: 'Encode Sans', sans-serif !important;
+}
+
+/* NAVBAR */
+nav{
+    /*descobrir como alterar tamanho navbar*/
+    background-color: #0057DF;
+    color: #FFFFFF !important;
+}
+
+.nav-link{
+    color: #FFFFFF !important;
+    font-weight: 700;
+}
+
+
+.nav-link.active{
+    color: #FFB800 !important;
+    border-bottom: #FFB800 solid 4px;
+}
+
+
+.navbar .navbar-nav .nav-item:hover:after{
+    width: 100%;
+}
+
+#titulo{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+/* UTILITARIOS */
+
+.bloco-meus-agendamentos{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.card{
+    background-color: #D9F8FF !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+#pen{
+    display: flex;
+    justify-content: space-between;
+}
+
+#servico{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*FOOTER*/
+footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #D9D9D9;
+    font-weight: bold;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+}
+
+#logo-consenso{
+    height: 80px;
+}
+
+#footer-texto{
+    margin-top: 20px;
+}   
